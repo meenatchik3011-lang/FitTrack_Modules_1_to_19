@@ -1,0 +1,6 @@
+IMPORTANT: The supplied ZIP's fittrack_backup.db was inspected and contains 0 users and 0 workouts.
+It is not the populated working database shown in the user's earlier testing screenshots.
+Before starting the project, copy your actual existing fittrack.db from your original FitTrack/backend folder into this project's backend folder.
+Do not overwrite the actual database with fittrack_backup.db.
+New Phase 3 tables are additive and are created with SQLAlchemy create_all.
+Always keep an extra backup before first startup.
